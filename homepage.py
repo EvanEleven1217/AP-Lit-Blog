@@ -22,8 +22,7 @@ with st.container():
             )
     with right_column:
         python = Image.open('pythonLogo.png')
-        st.image(python, caption='Python Logo!')
-
+        st.image(python, caption='Python logo!')
     codeEx = Image.open('codeExample.png')
     st.image(codeEx, caption='Behind the scenes of this website! (obviously only a fraction of it)')
     
