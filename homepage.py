@@ -18,6 +18,8 @@ with st.container():
             but in the end, I'm fine with it because I love Python and I am able to put my skills to good use.
             This blog will look relatively simple as it is time consuming and complicated to manage.
             I will also be learning more from this experience!
+
+            *Disclaimer: this website may be slow sometimes due to deployment issues that may occur*
             """
             )
     with right_column:
