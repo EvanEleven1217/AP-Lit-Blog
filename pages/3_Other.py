@@ -1,9 +1,9 @@
 import streamlit as st
 import base64
 
-st.title("Writing")
+st.title("Other")
 
-st.write("Nothing here as of now! ")
+st.write("Nothing here as of now!")
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
