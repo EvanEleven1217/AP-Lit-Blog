@@ -6,9 +6,13 @@ st.set_page_config(page_title="Evan's Blog")
 
 st.title("Evan's Blog")
 st.subheader("Welcome! :wave: ")
+
 with st.container():
+
     left_column, right_column = st.columns(2)
+
     with left_column:
+
         st.write(
             """
             Fun fact, I spent much more time making this website than I should have, 
@@ -22,15 +26,24 @@ with st.container():
             *Disclaimer: this website may be slow sometimes due to deployment issues that may occur*
             """
             )
+
     with right_column:
+
         python = Image.open('pythonLogo.png')
         st.image(python, caption='Python logo!')
-    codeEx = Image.open('codeExample.png')
-    st.image(codeEx, caption='Behind the scenes of this website! (obviously only a fraction of it)')
-    
+
+    #codeEx = Image.open('codeExample.png')
+    #st.image(codeEx, caption='Behind the scenes of this website! (obviously only a fraction of it)')
+    st.write("""Want to see behind the scenes of this website? 
+            Click here: https://github.com/EvanEleven1217/AP-Lit-Blog
+
+            \n\r Code files are files that end with .py. One is homepage.py 
+            and there are 3 more .py files under \"pages\".""")
+
 st.sidebar.success("Select a page")
 
 def add_bg_from_local(image_file):
+
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
     st.markdown(
@@ -44,6 +57,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
+
 add_bg_from_local('mountainBackground.jpg') 
 
 hide_st_style = """
