@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+from PIL import Image
 
 st.title("Writing")
 
@@ -156,8 +157,8 @@ with st.expander("November"):
             """)
         
     st.subheader("My PC")
-    st.write("""I forgot to take a picture of the mindmap before I turned all finals in...
-            This post will be updated once submissions are returned!""")
+    image = Image.open('PCMindmap.png')
+    st.image(image)
 
 with st.expander("December/January"):
     st.subheader("Coming Soon!")
