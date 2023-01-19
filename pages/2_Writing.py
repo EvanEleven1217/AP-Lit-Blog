@@ -112,8 +112,56 @@ with st.expander("October"):
             progresses, I hope that my leadership will influence others 
             to also inspire, educate, and impact.
             """)
-
+        
+    st.subheader("About Me")
+    image = Image.open('me.png')
+    st.image(image)
+    
 with st.expander("November"):
+
+    st.subheader("Fences Analysis")
+    st.write("""
+            In Fences by August Wilson, he employs the symbol of fences to depict 
+            that family relationships should be protected inside and out. Throughout 
+            the play, there are literal and figurative fences that tear the Maxson 
+            family apart. Ironically, destruction is the opposite of what they wished 
+            for. For example, Rose Maxson, the main character’s wife, has Troy, the 
+            main character, build a fence around their house to keep love within her 
+            family and be “[protected] as [they] go on [their] way.” In this instance, 
+            Rose’s desire for social safety emerges because the fence separates her 
+            family from the racial discrimination in society. As the play progresses, 
+            the fence shifts to symbolize the conflict between Troy and his son, Cory. 
+            Cory’s dream is to play football, but Troy demands that Cory quit football 
+            and work a stable job because of “what [people] did to [Troy] in sports.” 
+            Cory is upset at Troy’s order because football is his only passion, and 
+            this disagreement creates tension that eventually forms a “fence” between 
+            Troy and Cory. As a result, future arguments are sparked, leading to 
+            Cory’s ultimate avoidance of Troy. On the other hand, another “fence” 
+            is established when Troy reveals to Rose that he had an affair. Having 
+            spent 18 years of her life “[burying her feelings] inside Troy,” Rose is 
+            devastated upon the news, and her intentions of nurturing her family die. 
+            Rose, being disappointed, talks to Cory about the situation, only to hear 
+            that Cory is also disappointed in Troy but for different reasons. Cory 
+            claims that Troy does“nothing but hold [him] back” in life because Troy 
+            doesn’t let him pursue his dreams. The already existing “fence” between 
+            Troy and Cory thickens when Cory encounters Troy sitting on the doorstep. 
+            As Cory walks around Troy to go inside, tension arises because Troy 
+            believes that Cory is disrespecting him by not acknowledging him. As 
+            the tension grows, Cory eventually walks away and says that he’ll be 
+            back for his things, and in response, Troy tells Cory that his stuff 
+            will be “on the other side of [the] fence.” Kicking Cory out of the house 
+            depicts Troy as powerful and territorial because he is able to choose who 
+            stays and who goes. Cory is irritated that Troy acts as the highest 
+            authority in the house given that Troy used Uncle Gabe’s money to buy 
+            it, and he escalates the situation further by confronting him about how 
+            he doesn’t truly own the house. Cory’s confrontation leads to an even 
+            thicker “fence” that prompts Cory not to attend Troy’s funeral after 
+            his passing. In the end, the Maxson family becomes shattered into pieces 
+            as a result of fences. All in all, Wilson utilizes fences to depict that 
+            a boundary may deter outside destruction, but it may discretely cultivate 
+            inner destruction.
+            """)
+
 
     st.subheader("UC Prompt 6")
     st.write("""
@@ -161,7 +209,79 @@ with st.expander("November"):
     st.image(image)
 
 with st.expander("December/January"):
-    st.subheader("Coming Soon!")
+    st.subheader("\"Once Upon a Time\" Analysis")
+    st.write("""
+            In the short story, “Once Upon a Time,” Nadine Gordimer utilizes the symbolism 
+            of a gold mine to assert that wealth gaps and stress can lead to a society’s 
+            collapse. To begin, the narrator is woken in the middle of the night by creaking 
+            sounds coming from her wooden floor. She initially believes the sounds are coming 
+            from possible intruders, considering the kind of area she lives in, but she soon 
+            concludes that the sounds are a “buckling, an epicenter of stress,” due to a gold 
+            mine underneath her house. As a result of the constant excavation, the narrator’s 
+            “whole house shifts” due to being strained by physical pressure. This draws a 
+            parallel to the narrator’s mental health, which slowly deteriorates by living 
+            in an unfair community. Through her views and experiences, she notices that 
+            segregation is a leading movement in her community. Some live a luxurious life 
+            with housemaids, while some live surrounded by razor thorns. As her house crumbles, 
+            so does her faith in society, which illustrates how agony can destroy one’s mindset. 
+            Additionally, the shaking symbolizes greed because even though the mining damages 
+            houses’ foundations, the mine operators are negligent and put profits over people's 
+            quality of life. The shaking creates an “uneasy strain” between the “brick, cement, 
+            wood, and glass” of the narrator’s house and separates them, which symbolizes the 
+            people in society because they are becoming divided due to the mine operator’s 
+            mining orders, or greed. Some people benefit financially through another person’s 
+            suffering; thus, wealth gaps encourage a collapse in society. Moreover, the wealth 
+            gaps pose another problem: desperate workers in poverty. Chopi and Tsonga, the 
+            narrator’s friends, are “migrant” mine employees who risk their lives to make a 
+            living regardless of the chance of being “interred there in the most profound of 
+            tombs.” With the mine consisting of many structural failures and water ruptures, 
+            the workplace symbolizes the workers’ unstable life quality as they try to meet 
+            the basic needs in a societal system managed by the rich. Eventually, the burdens 
+            will break the workers’ will, resulting in death. As a result of worker deaths, 
+            the workforce will decline, which will lead to a collapse of the economy, and 
+            eventually, the entire society will crumble. All in all, Gordimer uses the 
+            symbolism of a gold mine to demonstrate that wealth gaps and stress can destroy 
+            a society.
+            """)
+
+    st.subheader("UC Prompt 7")
+    st.write("""
+            \n\r Vision Youth Charity Center (VYCC) piqued my interest with its mission to play 
+            music for those with visual impairments. Because of this specific and powerful 
+            mission, I joined VYCC’s orchestra as a viola player. Over time, VYCC has 
+            guided me to use my talents–musical and otherwise–to benefit society. 
+
+            \n\r When I joined, I wasn’t sure what my impact would be. What I knew was that I 
+            enjoyed the ability to use my musical gifts to introduce a new tone to the 
+            orchestra. Each concert reminded me that my years of practice were more than 
+            for my personal gain; it was actually being used to bless others. 
+
+            \n\r It’s been four years since I joined, and VYCC has grown in size and structure. 
+            With growth came a new mission: to raise funds to help provide shelter and food 
+            for North Korean refugees. Once again, I loved how specific the mission was 
+            because it gave me insight into what kind of impact I can make. The orchestra 
+            became the primary source of funds for the mission, and I was excited to 
+            contribute to it.
+
+	        \n\r Wanting to do more, in 2022, I volunteered as VYCC’s secretary. As secretary, 
+            I took on a lot of responsibilities, such as organization and giving speeches. 
+            As I was getting immersed in the VYCC’s leadership, I also became the webmaster, 
+            and I was most eager about this because technology has always been my passion. 
+            Using my technological skills and creativity, I now manage VYCC’s website, and 
+            I am able to influence how people interact with VYCC and how VYCC reaches out 
+            to the world. 
+
+            \n\r Prior to VYCC, I used my knowledge and talents to benefit myself; however, my 
+            involvement as a member and staff opened my eyes to use my gifts to help people 
+            from all different walks of life. Through VYCC, I created musical memories for 
+            those who cannot see and gave North Korean refugees a new chance in life. In 
+            the future, VYCC’s mission will transition to helping Mexicans escape poverty, 
+            and I will use my gifts to positively change their lives as well.
+            """)
+
+    st.subheader("K-Pop")
+    image = Image.open('kpop.png')
+    st.image(image)
 
 with st.expander("February"):
     st.subheader("Nothing here as of now!")
