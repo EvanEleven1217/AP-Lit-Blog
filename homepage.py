@@ -23,7 +23,7 @@ with st.container():
             This blog will look relatively simple as it is time consuming and complicated to manage.
             I will also be learning more from this experience!
 
-            *Disclaimer: this website may be slow sometimes due to deployment issues that may occur*
+            *Disclaimer: this website will be slow because I do not want to spend money on a better hosting plan.*
             """
             )
 
@@ -32,8 +32,8 @@ with st.container():
         python = Image.open('pythonLogo.png')
         st.image(python, caption='Python logo!')
 
-    #codeEx = Image.open('codeExample.png')
-    #st.image(codeEx, caption='Behind the scenes of this website! (obviously only a fraction of it)')
+    
+    st.subheader("Check it out!")
     st.write("""Want to see behind the scenes of this website? 
             Click here: https://github.com/EvanEleven1217/AP-Lit-Blog
 

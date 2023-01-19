@@ -5,6 +5,7 @@ from PIL import Image
 st.title("Writing")
 
 st.caption("Indenting/Formatting does not work, please disregard.")
+st.caption("Please be patient if any tabs are not loading.")
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
@@ -116,7 +117,7 @@ with st.expander("October"):
     st.subheader("About Me")
     image = Image.open('me.png')
     st.image(image)
-    
+
 with st.expander("November"):
 
     st.subheader("Fences Analysis")
