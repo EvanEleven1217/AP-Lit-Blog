@@ -210,6 +210,7 @@ with st.expander("November"):
     st.image(image)
 
 with st.expander("December/January"):
+
     st.subheader("\"Once Upon a Time\" Analysis")
     st.write("""
             In the short story, “Once Upon a Time,” Nadine Gordimer utilizes the symbolism 
@@ -285,8 +286,81 @@ with st.expander("December/January"):
     st.image(image)
 
 with st.expander("February"):
-    st.subheader("Nothing here as of now!")
 
+    st.subheader("\"Out Out\" Analysis")
+    st.write('''
+            Robert Frost’s poem, “Out Out,” portrays the speaker’s complex attitude about 
+            life and death to assert that memories in life can easily fade away. In the 
+            beginning, the boy works diligently as he cuts wood with a saw. The speaker 
+            wishes that the boy “call it a day” because the speaker recognizes the boy's 
+            hard work and wants to express concern for his safety. By showing sympathy 
+            for the boy, the speaker illustrates a positive value for life, which 
+            potentially outlines the need to cherish and protect life as World War I 
+            rages on. Later on in the poem, the boy dies due to a severed hand. 
+            Interestingly, the events that succeed the boy’s death contradict the 
+            speaker’s stance on life value. For instance, the speaker believed that 
+            the boy's death had “no more to build on,” which indicates that the loss 
+            had no significant impact. An absence of a reaction from the speaker depicts 
+            that the speaker has no attachment to the boy, ultimately contradicting the 
+            appreciation of life demonstrated previously. With nothing to say or feel 
+            regarding the boy’s death, the speaker moved on as if nothing had happened. 
+            Additionally, the speaker’s value of life diminishes further when he “turned” 
+            back to “affairs” because the speaker “[was] not the one dead.” Through the 
+            speaker’s self-centered response, Frost conveys that those who die fade from 
+            memory. Survivors live for themselves and leave others behind. All in all, 
+            the speaker employs a complex attitude about life and death to convey that 
+            the outcome of life remains unpredictable, and memories of the dead will 
+            not linger.
+            ''')
+
+    st.subheader("Coding in a Nutshell")
+    st.caption("Three lines are one stanza. I couldn't get it to format properly.")
+    st.write("""
+            \n\rA code script.
+            \n\r30 lines on show,
+            \n\rOrganized, yet complicated.
+            \n\r
+            \n\rFor each line:
+            \n\rNo syntax errors.
+            \n\rAll seems well.
+            \n\r
+            \n\rThe script executes,
+            \n\rAnd hope dies
+            \n\rDue to a list of bugs.
+            \n\r
+            \n\rFor bug in bugs:
+            \n\rStuck in a loop.
+            \n\r“i” is not changing.
+            \n\r
+            \n\rTo break out,
+            \n\r“i” must increment.
+            \n\rSo new code gets typed.
+            \n\r
+            \n\rThe script executes,
+            \n\rAnd hope dies
+            \n\rDue to a list of bugs.
+            \n\r
+            \n\rFor bug in bugs:
+            \n\rRun-time errors originate
+            \n\rOn line 20.
+            \n\r
+            \n\rOperations on incompatible types
+            \n\rcannot function,
+            \n\rSo new code gets typed.
+            \n\r
+            \n\rWhile bugs has bug:
+            \n\rGoogle to find a fix.
+            \n\rHours on Stack Overflow.
+            \n\r
+            \n\rIf bugs is None:
+            \n\rJoy gets declared and initialized,
+            \n\rAnd never mutated.
+            """)
+
+    st.subheader("Apple Products")
+    image = Image.open('appleProducts.png')
+    st.image(image)
+    
 with st.expander("March"):
     st.subheader("Nothing here as of now!")
 
