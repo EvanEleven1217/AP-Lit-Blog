@@ -314,7 +314,7 @@ with st.expander("February"):
             ''')
 
     st.subheader("Coding in a Nutshell")
-    st.caption("Three lines are one stanza. I couldn't get it to format properly.")
+    st.caption("Three lines are one stanza. Formatting does not work.")
     st.write("""
             \n\rA code script.
             \n\r30 lines on show,
@@ -362,8 +362,94 @@ with st.expander("February"):
     st.image(image)
     
 with st.expander("March"):
-    st.subheader("Nothing here as of now!")
 
+    st.subheader("\"The Story of an Hour\" Analysis")
+    st.write("""
+            In the short story “The Story of an Hour” by Kate Chopin, she utilizes 
+            the setting to convey that death can bring unexpected happiness and freedom. 
+            To begin, Chopin employs the imagery of Louise Mallard’s house to symbolize 
+            Louise’s feelings of confinement in her marriage. Her house windows only 
+            reveal a “[patch] of blue sky,” which illustrates the small amount of joy 
+            Louise experiences in her life. The rest of the house appears gloomy and 
+            dark, evoking Louise’s mental state and a sense of entrapment. After her 
+            husband’s death, the negative view of the house becomes contrasted with a 
+            more optimistic view, where Louise begins to embrace the house. For instance, 
+            she “drinks” the “elixir of life” through the “window,” which illustrates 
+            that she now has light in her life. She then goes to her “comfortable” room, 
+            proving ironic because before the death, the house was a haven of darkness. 
+            A comparison between the house’s old dark state and the new “[colorful]” 
+            state implies that her husband's death broke down the walls that hindered 
+            light from entering Louise's life, and now she can finally pursue happiness. 
+            Moreover, Louise experiences a “delicious breath of rain” after his death. 
+            The rain symbolizes the cleansing of pain from her past life and the creation 
+            of new life, as well as the release of feelings that have been suppressed 
+            for too long. Her feelings resemble the water in a cloud, and when the cloud 
+            builds up too much water, it releases it as rain. Similar to how the sun 
+            emerges after the rain clears, sunlight blares into Louise’s life after 
+            the rain ceases, symbolizing a bright future with new opportunities. The 
+            saplings in her life will sprout from the rainfall. All in all, Chopin 
+            utilizes the setting of Mallard's house to convey that light and happiness 
+            may come from death.
+            """)
+    
+    st.subheader("What Should the Title Be?")
+    st.caption("Five lines are one stanza. Formatting does not work.")
+    st.write("""
+            \n\rIt’s 8:03 p.m. 
+            \n\rI create this Google Doc.
+            \n\rA white page stares at me,
+            \n\rAnd I sit and wonder,
+            \n\rWhat should my poem be about?
+            \n\r
+            \n\rIt’s 8:08 p.m.
+            \n\rAn idea sparks to life.
+            \n\rMy fingers press every key A-Z.
+            \n\rBut inspiration fades away,
+            \n\rSo I spam backspace.
+            \n\r
+            \n\rIt’s 8:14 p.m.
+            \n\rAn idea emerges from the depths.
+            \n\rMy fingers dance over the keyboard.
+            \n\rBut the words conceal deep secrets,
+            \n\rSo I ctrl+z repeatedly. 
+            \n\r
+            \n\rIt’s now 8:19 p.m.
+            \n\rCreativity stretched to limits.
+            \n\rBut then I realize
+            \n\rI can write a poem,
+            \n\rAbout me not having an idea.
+            """)
+
+    st.subheader("A-Z Computer")
+    st.write("""
+            \n\rA is for ATX, 12 by 9.6 layout for motherboards.
+            \n\rB is for BIOS, instructions that bind hardware with software.
+            \n\rC is for CPU, a brain that controls the digital realm.
+            \n\rD is for DisplayPort, ports for RGB data in 0s and 1s.
+            \n\rE is for Ethernet, cables that link computers with computers.
+            \n\rF is for Fan, a computer’s solution for thermal throttling.
+            \n\rG is for GPU, an artist that paints vivid graphics.
+            \n\rH is for HDD, terabytes of storage for photos and files.
+            \n\rI is for Internet, the world's vast network of networks.
+            \n\rJ is for JavaScript, World Wide Web’s core tongue.
+            \n\rK is for Kernel, a ruling and backbone OS.
+            \n\rL is for Linux, an enthusiast’s dream platform.
+            \n\rM is for Motherboard, bridges between all components.
+            \n\rN is for Nanometer, precise measurements of brain structure.
+            \n\rO is for Overclock, a processor's maximum potential.
+            \n\rP is for Python, the coding language that executes wonders.
+            \n\rQ is for QWERTY, common keyboard layout that is burned to the brain.
+            \n\rR is for RAM, memory that's accessed every day.
+            \n\rS is for SSD, lightning-fast storage for OSs and video games.
+            \n\rT is for Transistor, a semiconductor that only remembers 0 or 1.
+            \n\rU is for USB, data that fits in only half the time.
+            \n\rV is for Virus, a program capable of unleashing blue light.
+            \n\rW is for Windows, the OS for many.
+            \n\rX is for Xcode, Apple's world in coding.
+            \n\rY is for Yottabyte, a size too big to fathom.
+            \n\rZ is for Zip-file, files in a suitcase for easy transportation. 
+            """)
+    
 with st.expander("April"):
     st.subheader("Nothing here as of now!")
 
