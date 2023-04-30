@@ -451,7 +451,49 @@ with st.expander("March"):
             """)
     
 with st.expander("April"):
-    st.subheader("Nothing here as of now!")
+    
+    st.subheader("Meta Poem: \"The Pulley\"")
+    st.write("""
+            George Herbert’s poem, “The Pulley,” utilizes the conceit of a pulley to 
+            assert that there is a delicate equilibrium between man and God. Initially, 
+            the pulley begins with God weighing down the pulley and man being lifted to 
+            the top, illustrating that God is all-powerful while man is nothing. During 
+            the creation of man, God endows man with “wisdom, honour, and pleasure.” 
+            God “[pours] on [man] all [he could]” and blesses him with the “glass of 
+            blessings,” such that man “[rests] in the bottom” of the pulley. In this 
+            scenario, the fact that man sits at the bottom of the pulley while lifting 
+            God up indicates that he is more powerful than God because man can think 
+            and judge life to his own agenda. Eventually, God realizes that man will 
+            “adore…gifts instead of [Him]” and become self-reliant, so God ceases 
+            bestowing gifts and declares “repining restlessness” upon man to counteract 
+            man’s power. By countering the gifts to man with restlessness, man’s power 
+            loses effectiveness; thus, man and God are now equal. With man not receiving 
+            any more gifts from God, he is “kept [at] rest” at an equilibrium. The newly 
+            created balance between man and God allows man to find peace within God’s 
+            “breast” and become one with Him. God believes that man should strive for 
+            greatness, but only while appreciating and respecting the origin of power. 
+            If man fails to acknowledge God, the pulley’s balance will shift, and man 
+            will orchestrate his own downfall. Without God, man is powerless. All in 
+            all, Herbert uses the conceit of the pulley to illustrate the dependent 
+            relationship between man and God.
+            """)
+    
+    st.subheader("The Secret of Sleep")
+    st.write("""
+            \n\rSleep is my escape from all problems.
+            \n\rSleep helps me forget about hunger.
+            \n\rSleep entertains me in my boredom.
+            \n\rSleep replaces my tiredness with energy.
+            \n\rSleep acts as my friend when I’m lonely.
+            \n\rSleep clears my head of dark thoughts.
+            \n\rSleep gifts me joy in any situation.
+            \n\rSleep embraces me to soothe away the stress.
+            \n\rSleep creates a perfect world for me.
+            """)
+    
+    st.subheader("Hello World! in 8 Coding Languages")
+    image = Image.open('8langs.png')
+    st.image(image)
 
 
 

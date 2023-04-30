@@ -17,9 +17,6 @@ with st.container():
             As for software, I love programming. 
             I'm familiar with three programming languages so far: Python, Java, and C#.
             Python is my personal favorite programming language.
-            More on software, I always use the unreleased iOS versions because I have access to developer beta content. 
-            I get to test features before everyone else and it's always exciting. 
-            For example, I've had iOS 16 since June when everyone got it in September.
 
             As you can tell, I love technology a lot :D
             """
