@@ -494,8 +494,3 @@ with st.expander("April"):
     st.subheader("Hello World! in 8 Coding Languages")
     image = Image.open('8langs.png')
     st.image(image)
-
-
-
-
-

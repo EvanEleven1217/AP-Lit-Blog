@@ -33,12 +33,12 @@ with st.container():
         st.image(python, caption='Python logo!')
 
     
-    st.subheader("Check it out!")
-    st.write("""Want to see behind the scenes of this website? 
-            Click here: https://github.com/EvanEleven1217/AP-Lit-Blog
+    #st.subheader("Check it out!")
+    #st.write("""Want to see behind the scenes of this website? 
+            #Click here: https://github.com/EvanEleven1217/AP-Lit-Blog
 
-            \n\r Code files are files that end with .py. One is homepage.py 
-            and there are 3 more .py files under \"pages\".""")
+            #\n\r Code files are files that end with .py. One is homepage.py 
+            #and there are 3 more .py files under \"pages\".""")
 
 st.sidebar.success("Select a page")
 
