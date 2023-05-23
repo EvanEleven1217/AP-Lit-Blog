@@ -31,6 +31,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 if st.text_input("Check Sticky Note") == "C7rP-8qK2":
     with st.expander("2023 Final Blog Reflection"):
+        
         st.caption("Indenting/Formatting does not work, please disregard.")
         st.write("""
                 Dear Mrs. St. Amant,
